@@ -20,5 +20,8 @@
   "homepage": "https://github.com/jmoncayo-pursuit/L3_V3_tech_interview_prep#readme",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@ljharb/tsconfig": "^0.3.2"
   }
 }
