@@ -1,0 +1,24 @@
+{
+  "name": "l3_v3_tech_interview_prep",
+  "version": "1.0.0",
+  "description": "The aim of this class is NOT to grind leetcode. That is a recipe for disaster. We want to make sure that you are truly learning data structures and algorithms. While it may seem tedious, it will help you out in the long run in your career. What I want you to take away from this is how to approach problem solving and unit testing with a foundation in data structures and algorithms. Make sure you are in the right mindset. You will not come up with solutions to some of these problems, it took mathmaticians years in some cases AND THATS OK. Remember that leetcode is a playground for us to practice our understanding of the data structure, without a solid understanding of what we are doing, we will always be lost. Take your time and give yourself grace.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmoncayo-pursuit/L3_V3_tech_interview_prep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jmoncayo-pursuit/L3_V3_tech_interview_prep/issues"
+  },
+  "homepage": "https://github.com/jmoncayo-pursuit/L3_V3_tech_interview_prep#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
