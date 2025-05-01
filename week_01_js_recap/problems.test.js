@@ -11,4 +11,5 @@ test('findMax returns the largest number', () => {
 test('isPalindrome checks for palindrome correctly', () => {
   expect(isPalindrome('racecar')).toBe(true);
   expect(isPalindrome('hello')).toBe(false);
+  expect(isPalindrome("A man, a plan, a canal: Panama.")).toBe(true);
 });

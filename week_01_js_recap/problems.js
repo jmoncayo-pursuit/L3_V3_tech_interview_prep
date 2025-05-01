@@ -1,7 +1,8 @@
 // Reverse a string
+
 function reverseString(str) {
     let reversed = '';
-    for (let i = str.length - 1; i>= 0; i--) {
+    for (let i = str.length - 1; i >= 0; i--) {
         reversed += str[i];
     }
     return reversed;
@@ -20,11 +21,12 @@ function findMax(arr) {
 
 // Check if palindrome
 function isPalindrome(word) {
-    let reversed = '';
-    for (let i = word.length - 1; i >= 0; i--) {
-        reversed += word[i];
+    const cleanedWord = word.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    let reversedWord = '';
+    for (let i = cleanedWord.length - 1; i >= 0; i--) {
+        reversedWord += cleanedWord[i];
     }
-    return reversed === word;
+    return cleanedWord === reversedWord;
 }
 
 function isPalindromeUsingReverseStringFunction(word) {
