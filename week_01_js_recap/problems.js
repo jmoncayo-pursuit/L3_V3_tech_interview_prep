@@ -30,7 +30,7 @@ function isPalindrome(word) {
 }
 
 function isPalindromeUsingReverseStringFunction(word) {
-    return reverseString(word) === word;
+    return reverseString(word) === word; 
 }
 
-module.exports = { reverseString, findMax, isPalindrome };
+module.exports = { reverseString, findMax, isPalindrome }; 
